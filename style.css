@@ -1,0 +1,94 @@
+//CSS page
+h1 {
+ color: blue;
+}
+#main {
+	background: gray;
+	margin: 10px;
+	padding: 10px;
+	height: 1094.81px;
+}
+
+#column-1 {
+	float:left;
+	background-color: #00ff55;
+	width: 25%;
+	padding: 10px;
+	height: 1074.81px;
+}
+
+#column-2 {
+	background-color: blue;
+	float: right;
+	padding: 10px;
+}
+
+	section {
+	background-color: #ff9933;
+}
+
+label {
+	float: left;
+	clear: right;
+}
+input, select {
+	float: right;
+}
+nav {
+	background: white;
+	border: 5px solid black;
+	padding: 1px;
+}
+
+aside {
+}
+
+aside p:first-child {
+	color: blue;
+}
+
+a:hover {
+	color: #FF3300;
+}
+
+h2 {
+	color: black;
+}
+
+
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table, td, th {
+	border: 2px solid black;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10em;
+}
+
+footer {
+	clear: both;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.button {
+        color: blue;
+        background:  gray;
+        width: 200px;
+        text-align: center;
+        padding: 12px;
+        border: 2px solid rgb(0,4,0);
+        border-radius: 24px;
+        font-family: 'Indie Flower', cursive;
+    }
+	
+	
